@@ -173,6 +173,7 @@ main {
 .container_botoes_titulo button:last-child:hover {
     background-color: #0086C5;
     color: white;
+    transform: scale(1.05);
 }
 
 .container_botoes_titulo button:first-child {
