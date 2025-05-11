@@ -1,0 +1,80 @@
+/* IMPORTAÇÃO DAS FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILIZAÇÃO DO CABEÇALHO/HEADER */
+
+header {
+    height: 50px;
+    width: 100vw;
+    background-color: #0086C5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px 0 50px;
+    margin: 0 auto;
+}
+
+/* ESTILIZAÇÃO DA IMAGEM DA LOGO */
+
+.conteiner_logo_header {
+    margin-left: -150px;
+}
+
+.conteiner_logo_header img {
+    width: 150px;
+}
+
+/* ESTILIZAÇÃO DO MENU DE NAVEGAÇÃO */
+
+header nav {
+    display: flex;
+    margin-right: -400px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header nav ul li a p {
+    color: white;
+    font-family: "Kadwa", serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+/* ESTILIZAÇÃO DO BOTÃO ENTRAR DO HEADER/CABEÇALHO */
+
+.button_entrar_header {
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    width: 128px;
+    height: 33px;
+    margin-right: -150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+} 
+
+.button_entrar_header p {
+    color: #0086C5;
+    font-family: "Kadwa", serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
