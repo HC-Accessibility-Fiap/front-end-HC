@@ -31,6 +31,7 @@ header {
 
 .conteiner_logo_header {
     margin-left: -200px;
+    cursor: pointer;
 }
 
 .conteiner_logo_header img {
@@ -52,6 +53,7 @@ header nav ul {
 
 header nav ul li {
     transition: 0.2s;
+    cursor: pointer;
 }
 
 header nav ul li:hover {
@@ -89,6 +91,7 @@ header nav ul li a p {
     font-size: 16px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.13);
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .button_entrar_header:hover {
@@ -108,7 +111,6 @@ main {
 }
 
 #titulo_eva {
-    padding: 0;
     width: 100%;
     display: flex;
     align-items: center;
@@ -160,6 +162,19 @@ main {
 
 .container_botoes_titulo button {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.226);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.container_botoes_titulo button:first-child:hover {
+    background-color: white;
+    color: #0086C5;
+    border: 1px solid #0086C5;
+}
+
+.container_botoes_titulo button:last-child:hover {
+    background-color: #0086C5;
+    color: white;
 }
 
 .container_botoes_titulo button:first-child {
@@ -220,4 +235,20 @@ main {
     font-size: 16px;
     font-weight: 400;
     margin-top: -4px;
+}
+
+/* ESTILIZAÇÃO DA SEGUNGA SEÇÃO/SEÇÃO DE HOSPITAIS PRÓXIMOS */
+
+#hospitais_proximos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 0 90px 0 90px;
+
+}
+
+#hospitais_proximos > h2:first-child {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
 }
