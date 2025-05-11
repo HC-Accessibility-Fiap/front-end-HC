@@ -1,11 +1,17 @@
 /* IMPORTAÇÃO DAS FONTES */
 @import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /* ESTILIZAÇÃO DO CABEÇALHO/HEADER */
@@ -24,7 +30,7 @@ header {
 /* ESTILIZAÇÃO DA IMAGEM DA LOGO */
 
 .conteiner_logo_header {
-    margin-left: -150px;
+    margin-left: -200px;
 }
 
 .conteiner_logo_header img {
@@ -63,8 +69,8 @@ header nav ul li a p {
     border-radius: 5px;
     border: none;
     width: 128px;
-    height: 33px;
-    margin-right: -150px;
+    height: 37px;
+    margin-right: -200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,3 +84,116 @@ header nav ul li a p {
     font-size: 16px;
 }
 
+/* COMEÇO DA ESTILIZAÇÃO DO CORPO DA PAGINA / MAIN 
+ESTILIZAÇAO DO PRIMEIRO CONTAINER DA PAGINA QUE TEM O TITULO E A EVA*/
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+#titulo_eva {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 80px 0 80px 0;
+}
+
+.container_titulo {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.bem_vindo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    color: #0086C5;
+}
+
+.container_titulo h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90px;
+    width: 600px;
+    line-height: 90px;
+    margin: 0 0 20px 0;
+    justify-content: left;
+}
+
+.paragrafo_titulo {
+    width: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    justify-content: left;
+    line-height: 23px;
+    margin: 0 0 20px 10px;
+}
+
+.pt2 {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+}
+
+.container_botoes_titulo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container_botoes_titulo button {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.226);
+}
+
+.container_botoes_titulo button:first-child {
+    background-color: #0086C5;
+    font-family: "Poppins", serif;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 46px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container_botoes_titulo button:last-child {
+    background-color: white;
+    font-family: "Poppins", serif;
+    color: #0086C5;
+    border: 1px solid #0086C5;
+    border-radius: 5px;
+    width: 130px;
+    height: 46px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* ESTILIZAÇÃO DO CONTAINER DA EVA */
+
+#container_eva {
+    width: 371px;
+    height: 523px;
+    background-color: white;
+    border: 1px solid #0086C5;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.356);
+}
+
+#header_eva {
+    width: 100%;
+    height: 50px;
+    background-color: #0086C5;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 20px 0 20px;
+}
+
+#header_eva h2 {
+    font-family: "Poppins", serif;
+    color: white;
+    font-size: 27px;
+    font-weight: 300;
+}
