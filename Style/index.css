@@ -23,7 +23,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 0 50px 0 50px;
+    padding: 5px 50px 5px 50px;
     margin: 0 auto;
 }
 
@@ -41,13 +41,21 @@ header {
 
 header nav {
     display: flex;
-    margin-right: -400px;
+    margin-right: -430px;
 }
 
 header nav ul {
     display: flex;
     gap: 40px;
     list-style: none;
+}
+
+header nav ul li {
+    transition: 0.2s;
+}
+
+header nav ul li:hover {
+    transform: scale(1.1);
 }
 
 header nav ul li a {
@@ -68,24 +76,31 @@ header nav ul li a p {
     background-color: white;
     border-radius: 5px;
     border: none;
-    width: 128px;
-    height: 37px;
+    width: 120px;
+    height: 33px;
     margin-right: -200px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 3px;
-} 
-
-.button_entrar_header p {
     color: #0086C5;
     font-family: "Kadwa", serif;
     font-style: normal;
     font-size: 16px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.13);
+    transition: 0.5s;
+}
+
+.button_entrar_header:hover {
+    background-color: #0086C5;
+    color: white;
+    border: 1px solid white;
 }
 
 /* COMEÇO DA ESTILIZAÇÃO DO CORPO DA PAGINA / MAIN 
 ESTILIZAÇAO DO PRIMEIRO CONTAINER DA PAGINA QUE TEM O TITULO E A EVA*/
+
+/* ESTILIZAÇÃO DO CONTAINER DO TITULO */
 
 main {
     width: 100%;
@@ -111,6 +126,7 @@ main {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 21px;
     color: #0086C5;
+    font-weight: 600;
 }
 
 .container_titulo h1 {
@@ -175,7 +191,7 @@ main {
 #container_eva {
     width: 371px;
     height: 523px;
-    background-color: white;
+    background-color: rgb(233, 233, 233);
     border: 1px solid #0086C5;
     border-radius: 5px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.356);
@@ -183,17 +199,25 @@ main {
 
 #header_eva {
     width: 100%;
-    height: 50px;
+    height: 70px;
     background-color: #0086C5;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: left;
-    padding: 0 20px 0 20px;
+    padding: 5px 20px 5px 20px;
 }
 
 #header_eva h2 {
     font-family: "Poppins", serif;
     color: white;
     font-size: 27px;
-    font-weight: 300;
+    font-weight: 400;
+}
+
+#header_eva p {
+    font-family: "Poppins", serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -4px;
 }
