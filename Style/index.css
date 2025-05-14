@@ -340,7 +340,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    padding: 0 90px 0 90px;
+    padding: 0 75px 0 75px;
 
 }
 
@@ -351,35 +351,37 @@ main {
 }
 
 .conteudo_hospitais_proximos {
-    width: 80%;
-    padding: 10px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 30px;
 }
 
+/* ESTILIZAÇÃO DA LISTA DE HOSPITAIS */
+
 .lista_hospitais {
-    padding: 20px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.26);
-    border: 1px solid black;
+    width: 50%;
+    padding: 2px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
 }
 
 .card_hospitais {
     display: flex;
     align-items: center;
-    border: 1px solid black;
     border-radius: 20px;
     padding: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.26);
     gap: 20px;
+    width: 95%;
 }
 
 .lista_hospitais img {
-    width: 250px;
+    width: 240px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.384);
     border-radius: 20px;
 }
@@ -387,10 +389,52 @@ main {
 .text_card {
     display: flex;
     flex-direction: column;
-
 }
 
 .text_card h2 {
     font-family: "Montserrat", serif;
     font-size: 15px;
+    width: 80%;
 }
+
+.text_card p {
+    font-family: "Montserrat", serif;
+    width: 65%;
+    font-size: 12px;
+}
+
+.line_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 7px 0 0 0;
+    gap: 20px;
+    width: 70%;
+}
+
+.nota {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    width: 30%;
+}
+
+.nota p {
+    font-family: "Montserrat", serif;
+    width: 65%;
+    font-size: 12px;
+}
+
+/* ESTILIZAÇÃO DA PARTE DO MAPA */
+
+.mapa_container {
+    width: 55%;
+}
+
+#foto_mapa {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.24);
+}
+
+/* COMEÇO DA ESTILIZAÇÃO DE SERVIÇOS PARA VOCÊ */
