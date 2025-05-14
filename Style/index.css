@@ -307,7 +307,6 @@ main {
     border: transparent;
     padding: 3px 3px 3px 20px;
     background-color: transparent;
-    color: transparent;
     margin-left: -20px;
     border: 1px solid #0086C5;
 }
@@ -446,12 +445,12 @@ main {
 
 /* COMEÇO DA ESTILIZAÇÃO DE SERVIÇOS PARA VOCÊ */
 
-.servicos_para_voce {
+#servicos_para_voce {
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding: 50px 100px 20px 100px;
+    gap: 10px;
+    padding: 50px 80px 20px 80px;
     margin: 40px 0 50px 0;
 }
 
@@ -497,7 +496,7 @@ main {
 }
 
 .card_servicos:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .line_top_card {
@@ -541,3 +540,59 @@ main {
 .footer_card_servicos button img {
     width: 30px;
 }
+
+/* ----------------------------------------------- */
+
+#sobre_inrea {
+    width: 100%;
+    padding: 20px 100px 10px 100px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.text_sobre_inrea {
+    width: 50%;
+    padding: 5px;
+    font-family: "Montserrat", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+}
+
+.text_sobre_inrea h2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.text_sobre_inrea img {
+    width: 130px;
+}
+
+.text_sobre_inrea p {
+    font-size: 15px;
+}
+
+.text_sobre_inrea a {
+    text-decoration: none;
+    color: #0086C5;
+}
+
+.text_sobre_inrea a p {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.imagem_inrea {
+    width: 50%;
+}
+
+.imagem_inrea img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+/* ------------------------------------------- */
+
