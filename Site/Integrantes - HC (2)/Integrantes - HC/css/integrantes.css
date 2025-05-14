@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Gotham' ;
+  src: url('Gotham-Medium.otf') format('opentype') url('Gotham-Medium.ttf')
+  format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.integrantes {
+  height: 100vh;
+  background-color: #0086C5;
+  padding: 70px 96px;
+}
+
+.integrante-um-joao {
+  display: flex;
+  gap: 2%;
+  margin-bottom: 110px;
+}
+
+.imagens {
+  border-radius: 15px;
+}
+
+.cards {
+  width: 354px;
+  height: 405px;
+  background-color: white;
+  border-radius: 13px;
+  padding: 20px ;
+}
+
+.icones-murilo {
+  align-items: center;
+}
+
+.conteudo-card {
+  justify-items: center;
+}
+
+.icones {
+  margin-top: 10px;
+}
+
+.titulo {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 64px;
+  font-family: Gotham;
+}
+
+.sub-titulo {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.biografia {
+  color: white;
+  font-size: 23px;
+}
+
+.integrante-dois-murilo {
+  display: flex;
+  gap: 2%;
+}

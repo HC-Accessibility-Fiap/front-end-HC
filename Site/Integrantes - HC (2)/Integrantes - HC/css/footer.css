@@ -1,0 +1,83 @@
+footer {
+  height: 50vh;
+  background-color: #0086C5;
+  justify-items: center;
+}
+
+.conteudo-footer {
+  width: 90%;
+  height: 100%;
+  background-color: #fff;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  padding: 50px 50px;
+  justify-content: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.simbolo-icon-footer {
+  color: #0086C5;
+  font-size: 25px;
+}
+
+.logos-footer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  
+}
+
+.links-footer {
+  width: 100%;
+  height: 100px;
+  flex-direction: column;
+}
+
+.conteudos-footer {
+  margin-top: 100px;
+}
+
+.link-list-footer {
+  list-style: none;
+  transition: color 0.5s;
+}
+
+.link-list-footer  a:hover {
+  color: #313586;
+}
+
+.footer-paragrafos {
+  font-size: 23px;
+  color: #0086C5;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.redes-footer {
+  display: flex;
+  gap: 15px;
+}
+
+.redes-sociais {
+   margin-top: 170px;
+}
+
+hr {
+  border-bottom: 1px solid #0086C5;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.creditos {
+  font-size: 23px;
+  color: #0086C5;
+  margin-top: 110px;
+}
+
+.facebook {
+  width: 42px;
+  margin: 0;
+}
