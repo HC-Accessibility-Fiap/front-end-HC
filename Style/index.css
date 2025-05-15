@@ -134,6 +134,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 600px;
+    gap: 30px;
 }
 
 .bem_vindo {
