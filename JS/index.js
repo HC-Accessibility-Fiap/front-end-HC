@@ -12,3 +12,41 @@ document.addEventListener("scroll", function() {
 })
 // --------------------------------------------------
 
+window.revelar = ScrollReveal({
+    reset: true
+})
+
+revelar.reveal('.esconder', {
+    duration: 1000,
+    distance: '50px'
+})
+
+revelar.reveal('.card_servicos', {
+    duration: 1000,
+    distance: '50px',
+    delay: 100
+})
+
+revelar.reveal('.card1', {
+    duration: 1000,
+    distance: '50px',
+    delay: 200
+})
+
+revelar.reveal('.card2', {
+    duration: 1000,
+    distance: '50px',
+    delay: 300
+})
+
+revelar.reveal('.card3', {
+    duration: 1000,
+    distance: '50px',
+    delay: 400
+})
+
+revelar.reveal('.imagem_inrea', {
+    duration: 1000,
+    distance: '50px',
+    delay: 150
+})
