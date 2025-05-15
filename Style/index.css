@@ -388,7 +388,7 @@ main {
     cursor: pointer;
 }
 
-.card_hospitais:hover {
+.card_hospitais:hover .esconder:hover {
     transform: scale(1.05);
 }
 
