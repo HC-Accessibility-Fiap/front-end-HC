@@ -52,4 +52,16 @@ revelar.reveal('.imagem_inrea', {
     distance: '30px',
     delay: 150
 })
+
+revelar.reveal('.card1_integrantes', {
+    duration: 1000,
+    distance: '30px',
+    delay: 300
+})
+
+revelar.reveal('.card2_integrantes', {
+    duration: 1000,
+    distance: '30px',
+    delay: 300
+})
 // -----------------------------------------------

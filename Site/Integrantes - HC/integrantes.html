@@ -6,28 +6,32 @@
   <link rel="stylesheet" href="css/footer.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
   <title>Integrantes</title>
 </head>
 <body>
 
 <!-- 1 Barra de Navwgação | Nav Bar -->
 
-<nav>
-    <div class="logo">
-      <img src="imagens/img-nav/logo-hc-branca.svg" alt="Logo HC">
-      <p class="icone-logo">+</p>
-      <img src="imagens/img-nav/logo-fiap 1.svg" alt="Logo FIAP">
-    </div>
-    
-    <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Contato</a></li>
-        <li><a href="#">Integrantes</a></li>
-    </ul>
-
-    <a href="#" class="entrar-btn">Entrar</a>
-</nav>
+<header id="header" onscroll="header()">
+        <div class="conteiner_logo_header">
+            <!-- imagem da logo -->
+            <a href="/front-end/Site/inedx.html"><img src="/front-end/Images/logo.png" alt="logo do site, HC + Fiap"></a>
+        </div>
+        <!-- CRIAÇÃO DA AERA DE NAVEGAÇÃO -->
+        <nav class="nav_header">
+            <ul class="nav_lista">
+                <li><a href="/front-end/Site/index.html"><p>Home</p></a></li>
+                <li><a href="#"><p>FAQ</p></a></li>
+                <li><a href="#"><p>Contato</p></a></li>
+                <li><a href="/front-end/Site/Integrantes - HC/integrantes.html"><p>Integrantes</p></a></li>
+            </ul>
+        </nav>
+        <!-- BOTÃO ENTRAR -->
+        <button class="button_entrar_header">Entrar</button>
+</header>
 
 <!-- 2 Sessão De Integrantes --> 
 
@@ -39,19 +43,19 @@
 
     <!-- Card de Integrante -->
 
-    <div class="cards">
+    <div class="cards card1_integrantes esconder">
       <div class="conteudo-card">
         <img class="imagens" src="imagens/img-integrantes/foto-joao.png" alt="Imagem João">
         <div class="icones">
-        <img src="imagens/img-integrantes/icon-linkedin.svg" alt="Link Linkedin">
-        <img src="imagens/img-integrantes/icon-github.svg" alt="Link GitHub">
-      </div>
+          <a href=""><img src="imagens/img-integrantes/icon-linkedin.svg" alt="Link Linkedin"></a>
+          <a href=""><img src="imagens/img-integrantes/icon-github.svg" alt="Link GitHub"></a>
+        </div>
       </div>
     </div>
 
     <!-- Biografia de Integrante -->
 
-    <div class="paragrafos">
+    <div class="paragrafos esconder">
       <h1 class="titulo">JOÃO VICTOR ALCÂNTARA</h1>
       <p class="sub-titulo">19 ANOS - 1TDSA - RM566462</p>
       <p class="biografia">Duis lacus dolor, tincidunt sit amet elementum eget, tristique nec tortor. Cras hendrerit dolor non sapien pulvinar volutpat. Fusce pretium convallis condimentum. Vivamus in libero vitae sapien aliquet molestie. Vestibulum posuere sapien nulla, quis lacinia ipsum viverra nec. In eleifend velit in felis vehicula hendrerit. Duis tempus id nisi at tincidunt. Morbi at dignissim ante, vitae cursus ipsum. Quisque a orci lectus. Nam suscipit tellus id risus pulvinar imperdiet vitae scelerisque augue. Nam a porttitor velit, sit amet rhoncus arcu. Morbi libero velit, eleifend sit amet molestie et, sagittis a lacus. Cras pretium eget ligula eget ultricies. Suspendisse ut laoreet sapien. Aenean consequat tortor ac finibus vulputate.
@@ -65,7 +69,7 @@
 
     <!-- Biografia de Integrante -->
 
-    <div class="paragrafos">
+    <div class="paragrafos esconder">
       <h1 class="titulo">MURILO MACEDO SILVA</h1>
       <p class="sub-titulo">19 ANOS - 1TDSA - RM566462</p>
       <p class="biografia">Duis lacus dolor, tincidunt sit amet elementum eget, tristique nec tortor. Cras hendrerit dolor non sapien pulvinar volutpat. Fusce pretium convallis condimentum. Vivamus in libero vitae sapien aliquet molestie. Vestibulum posuere sapien nulla, quis lacinia ipsum viverra nec. In eleifend velit in felis vehicula hendrerit. Duis tempus id nisi at tincidunt. Morbi at dignissim ante, vitae cursus ipsum. Quisque a orci lectus. Nam suscipit tellus id risus pulvinar imperdiet vitae scelerisque augue. Nam a porttitor velit, sit amet rhoncus arcu. Morbi libero velit, eleifend sit amet molestie et, sagittis a lacus. Cras pretium eget ligula eget ultricies. Suspendisse ut laoreet sapien. Aenean consequat tortor ac finibus vulputate.
@@ -74,12 +78,12 @@
 
     <!-- Card de Integrante -->
 
-    <div class="cards">
+    <div class="cards card2_integrantes esconder">
       <div class="conteudo-card">
         <img class="imagens img-murilo" src="imagens/img-integrantes/foto-murilo.png" alt="Imagem João">
         <div class="icones icones-murilo">
-        <img src="imagens/img-integrantes/icon-linkedin.svg" alt="Link Linkedin">
-        <img src="imagens/img-integrantes/icon-github.svg" alt="Link GitHub">
+        <a href=""><img src="imagens/img-integrantes/icon-linkedin.svg" alt="Link Linkedin"></a>
+        <a href=""><img src="imagens/img-integrantes/icon-github.svg" alt="Link GitHub"></a>
       </div>
       </div>
     </div>
@@ -90,40 +94,38 @@
 <!-- 3 - Footer - Pagina de Integrantes -->
 
 <footer>
+        <div class="line1_footer">
+            <img src="imagens/img-footer/Group 22.svg" alt="">
+        </div>
 
-  <div class="conteudo-footer">
+        <div class="line2_footer">
+            <div class="lista_links">
+                <a href="/front-end/Site/index.html">Início</a>
+                <a href="integrantes.html">Interantes</a>
+                <a href="/front-end/Site/index.html#hospitais_proximos">Localização</a>
+                <a href="/front-end/Site/index.html#titulo_eva">Eva</a>
+                <a href="#">Sobre nós</a>
+                <a href="#">Contato</a>
+            </div>
+        </div>
 
-    <div class="logos-footer">
-      <img  class="logo-hc-footer" src="imagens/img-footer/logo-hc-azul.svg" alt="Logo HC">
-      <p class="simbolo-icon-footer">+</p>
-      <img class="logo-fiap-footer" src="imagens/img-footer/logo_fiap-azul.svg" alt="Logo FIAP">
-      <p class="simbolo-icon-footer">+</p>
-      <img src="imagens/img-footer/logo_imrea-blue 1.svg" alt="Logo IMREA">
-    </div>
+        <div class="line3_footer">
+            <div>
+                <p>Redes</p>
+            </div>
+            <div>
+                <a href="#"><img src="imagens/img-footer/linkedin.svg" alt=""></a>
+                <a href="#"><img src="imagens/img-footer/instagram.svg" alt=""></a>
+                <a href="#"><img src="imagens/img-footer/Vector.svg" alt=""></a>
+            </div>
+        </div>
 
-    <div class="links-footer">
-      <div class="conteudos-footer">
-        <ul class="link-list-footer">
-          <li><a class="footer-paragrafos" href="#">Início</a></li>
-          <li><a class="footer-paragrafos" href="#">Localização</a></li>
-          <li><a class="footer-paragrafos" href="#">Eva</a></li>
-          <li><a class="footer-paragrafos" href="#">Contato</a></li>
-          <li><a class="footer-paragrafos" href="#">Sobre Nós</a></li>
-        </ul>
-          </div>
-          <p class="creditos">Produzido e Desenvolvido por João e Murilo</p>
-    </div>
-
-    <div class="redes-sociais">
-      <p  class="footer-paragrafos">Redes</p>
-      <div class="redes-footer">
-        <a href="#"><img src="imagens/img-footer/linkedin.svg" alt="Icon Linkedin"></a>
-        <a href="#"><img src="imagens/img-footer/instagram.svg" alt="Icon Instagram"></a>
-        <a href="#"><img class="facebook" src="imagens/img-footer/facebook.svg" alt="Icon GitHub"></a>
-    </div>
-    
-  </div>
-  <hr>
+        <div class="line4_footer">
+            <p>Produzido por João Vitor & Murilo Macedo</p>
+        </div>
 </footer>
+
+<script src="/front-end/JS/index.js"></script>
+
 </body>
 </html>

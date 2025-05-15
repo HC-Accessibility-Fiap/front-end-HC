@@ -6,16 +6,18 @@
   font-style: normal;
 }
 
+.esconder {
+  visibility: hidden;
+}
 
 .integrantes {
-  height: 100vh;
   background-color: #0086C5;
   padding: 70px 96px;
 }
 
 .integrante-um-joao {
   display: flex;
-  gap: 2%;
+  gap: 30px;
   margin-bottom: 110px;
 }
 
@@ -43,6 +45,10 @@
   margin-top: 10px;
 }
 
+.icones a {
+  cursor: pointer;
+}
+
 .titulo {
   color: white;
   margin-bottom: 15px;
@@ -58,7 +64,7 @@
 
 .biografia {
   color: white;
-  font-size: 23px;
+  font-size: 18px;
 }
 
 .integrante-dois-murilo {
