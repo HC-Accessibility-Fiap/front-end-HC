@@ -112,9 +112,9 @@ header nav ul li a p {
 }
 
 /* COMEÇO DA ESTILIZAÇÃO DO CORPO DA PAGINA / MAIN 
-ESTILIZAÇAO DO PRIMEIRO CONTAINER DA PAGINA QUE TEM O TITULO E A EVA*/
+ESTILIZAÇAO DO PRIMEIRO CONTAINER DA PAGINA QUE TEM O TITULO E A EVA DA PAGINA INICIAL*/
 
-/* ESTILIZAÇÃO DO CONTAINER DO TITULO */
+/* ESTILIZAÇÃO DO CONTAINER DO TITULO DA PAGINA INICIAL*/
 
 main {
     width: 100%;
@@ -344,7 +344,7 @@ main {
     width: 25px;
 }
 
-/* ESTILIZAÇÃO DA SEGUNGA SEÇÃO/SEÇÃO DE HOSPITAIS PRÓXIMOS */
+/* ESTILIZAÇÃO DA SEGUNGA SEÇÃO/SEÇÃO DE HOSPITAIS PRÓXIMOS DA PAGINA INICIAL*/
 
 #hospitais_proximos {
     width: 100%;
@@ -454,7 +454,7 @@ main {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.24);
 }
 
-/* COMEÇO DA ESTILIZAÇÃO DE SERVIÇOS PARA VOCÊ */
+/* COMEÇO DA ESTILIZAÇÃO DE SERVIÇOS PARA VOCÊ DA PAGINA INICIAL*/
 
 #servicos_para_voce {
     width: 100%;
@@ -464,6 +464,8 @@ main {
     padding: 50px 80px 20px 80px;
     margin: 40px 0 50px 0;
 }
+
+/* ESTILIZAÃO DA PARTE DE TEXTO DA SEÇÃO SERVIÇOS PARA VOCE DA PAGINA INICIAL */
 
 .text_servicos {
     width: 30%;
@@ -485,6 +487,8 @@ main {
     width: 100%;
     font-weight: 350;
 }
+
+/* ESTILIZAÇÃO DOS CARDS DE SERVIÇO */
 
 .cards_servicos {
     width: 70%;
@@ -552,7 +556,7 @@ main {
     width: 30px;
 }
 
-/* ----------------------------------------------- */
+/* ESTILIZAÇÃO DA SEÇÃO SOBRE INFORMAÇÕES SOBRE O IMREAM DA PAGINA INICIAL*/
 
 #sobre_inrea {
     width: 100%;
@@ -605,7 +609,7 @@ main {
     width: 100%;
 }
 
-/* ------------------------------------------- */
+/* ESTILIZAÇÃO DO FOOTER DA PAGINA INICIAL*/
 
 footer {
     background-color: #0086C5;
@@ -704,7 +708,9 @@ footer {
     font-family: "Inter", serif;
 }
 
-/* ------------------------------------- */
+/* COMEÇO DA ESTILIZAÇÃO DA PAGINA DE INTEGRANTES*/
+
+/* ESTILIZAÇÃO DO CONTEÚDO DA PAGINA DE INTEGRANTES */
 
 .integrantes {
   background-color: #0086C5;
@@ -768,7 +774,7 @@ footer {
   gap: 2%;
 }
 
-/* ------------------------------------ */
+/* ESTILIZAÇÃO DO FOOTER DA PAGINA DE INTEGRANTES*/
 
 #body_integrantes {
   background-color: #0086c5;
@@ -870,3 +876,5 @@ footer {
     color: #0086c5;
     font-family: "Inter", serif;
 }
+
+/* ---------------------------------------------- */
