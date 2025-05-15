@@ -394,7 +394,7 @@ main {
     transition: 0.5s;
 }
 
-.card_hospitais:hover .esconder:hover {
+.card_hospitais:hover {
     transform: scale(1.05);
 }
 
