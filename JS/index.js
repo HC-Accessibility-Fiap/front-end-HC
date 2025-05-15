@@ -12,41 +12,44 @@ document.addEventListener("scroll", function() {
 })
 // --------------------------------------------------
 
+// ANIMAÇÃO AO ESCROLLAR
+
 window.revelar = ScrollReveal({
     reset: true
 })
 
 revelar.reveal('.esconder', {
     duration: 1000,
-    distance: '50px'
+    distance: '30px'
 })
 
 revelar.reveal('.card_servicos', {
     duration: 1000,
-    distance: '50px',
+    distance: '30px',
     delay: 100
 })
 
 revelar.reveal('.card1', {
     duration: 1000,
-    distance: '50px',
+    distance: '30px',
     delay: 200
 })
 
 revelar.reveal('.card2', {
     duration: 1000,
-    distance: '50px',
+    distance: '30px',
     delay: 300
 })
 
 revelar.reveal('.card3', {
     duration: 1000,
-    distance: '50px',
+    distance: '30px',
     delay: 400
 })
 
 revelar.reveal('.imagem_inrea', {
     duration: 1000,
-    distance: '50px',
+    distance: '30px',
     delay: 150
 })
+// -----------------------------------------------
