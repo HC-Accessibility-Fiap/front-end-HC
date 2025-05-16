@@ -351,30 +351,32 @@ main {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    padding: 0 75px 0 75px;
+    padding: 55px 0 55px;
+    margin: 0 auto;
 
 }
 
-#hospitais_proximos > h2:first-child {
+.titulo_hospitais_proximos {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 32px;
-    margin: 0 0 40px 0;
+    margin: 0 0 100px 170px;
 }
 
 .conteudo_hospitais_proximos {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     gap: 30px;
-    margin: 50px 0 0 0;
+    margin: 50px 0 0 50px;
+    padding: 0 55px 0 55px;
+    margin: 0 auto;
 }
 
 /* ESTILIZAÇÃO DA LISTA DE HOSPITAIS */
 
 .lista_hospitais {
-    width: 50%;
+    width: 45%;
     padding: 2px;
     border-radius: 20px;
     display: flex;
@@ -390,7 +392,7 @@ main {
     padding: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.26);
     gap: 20px;
-    width: 95%;
+    width: 100%;
     transition: 0.5s;
 }
 
@@ -446,7 +448,8 @@ main {
 /* ESTILIZAÇÃO DA PARTE DO MAPA */
 
 .mapa_container {
-    width: 55%;
+    width: 45%;
+    height: 100%;
 }
 
 #foto_mapa {
@@ -455,21 +458,27 @@ main {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.24);
 }
 
+.mapa_container iframe {
+    width: 100%;
+}
+
 /* COMEÇO DA ESTILIZAÇÃO DE SERVIÇOS PARA VOCÊ DA PAGINA INICIAL*/
 
 #servicos_para_voce {
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 50px 80px 20px 80px;
-    margin: 40px 0 50px 0;
+    justify-content: center;
+    gap: 5px;
+    padding: 50px 110px 20px 110px;
+    margin: 40px 50px 100px 50px;
+    margin: 0 auto;
 }
 
 /* ESTILIZAÃO DA PARTE DE TEXTO DA SEÇÃO SERVIÇOS PARA VOCE DA PAGINA INICIAL */
 
 .text_servicos {
-    width: 30%;
+    width: 28%;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -478,13 +487,13 @@ main {
 }
 
 .text_servicos h2 {
-    font-size: 60px;
-    width: 90%;
+    font-size: 57px;
+    width: 100%;
     font-weight: 500;
 }
 
 .text_servicos p {
-    font-size: 17px;
+    font-size: 16px;
     width: 100%;
     font-weight: 350;
 }
@@ -492,14 +501,16 @@ main {
 /* ESTILIZAÇÃO DOS CARDS DE SERVIÇO */
 
 .cards_servicos {
-    width: 70%;
+    width: 67%;
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10px;
 }
 
 .card_servicos {
-    width: 31%;
+    width: 30%;
     height: 100%;
     border: 1px solid black;
     border-radius: 20px;
@@ -564,11 +575,14 @@ main {
     padding: 20px 100px 10px 100px;
     display: flex;
     align-items: center;
-    gap: 20px;
+    justify-content: center;
+    gap: 100px;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
 .text_sobre_inrea {
-    width: 50%;
+    width: 45%;
     padding: 5px;
     font-family: "Montserrat", serif;
     display: flex;
@@ -602,7 +616,7 @@ main {
 }
 
 .imagem_inrea {
-    width: 50%;
+    width: 49%;
 }
 
 .imagem_inrea img {
@@ -767,7 +781,8 @@ footer {
 
 .biografia {
   color: white;
-  font-size: 18px;
+  font-size: 16px;
+  font-family: "Montserrat", serif;
 }
 
 .integrante-dois-murilo {
