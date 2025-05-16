@@ -1,0 +1,19 @@
+/* ESTILIZAÇÃO RESPONSIVA DA PAGINA INICIAL */
+
+@media screen and (max-width: 320px)  {
+    header {
+        padding: 5px 20px;
+    }
+
+    .conteiner_logo_header {
+        width: 100px;
+    }
+
+    .nav_button_container {
+        display: none;
+    }
+
+    .menu_hamburguer {
+        display: block;
+    }
+}
