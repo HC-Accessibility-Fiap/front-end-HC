@@ -31,6 +31,7 @@ header {
     margin: 0 auto;
     position: sticky;
     top: 0;
+    z-index: 5;
 }
 
 /* ESTILIZAÇÃO DA IMAGEM DA LOGO */
@@ -155,7 +156,7 @@ main {
 }
 
 .container_titulo h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: font-gotham;
     font-size: 90px;
     width: 600px;
     line-height: 90px;
@@ -165,7 +166,7 @@ main {
 
 .paragrafo_titulo {
     width: 400px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 15px;
     justify-content: left;
     line-height: 23px;
@@ -413,6 +414,7 @@ main {
     width: 100%;
     transition: 0.5s;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .card_hospitais:hover {
@@ -765,6 +767,7 @@ footer {
 
 .imagens {
   border-radius: 15px;
+  width: 300px;
 }
 
 .cards {
@@ -795,19 +798,20 @@ footer {
   color: white;
   margin-bottom: 15px;
   font-size: 64px;
-  font-family: Gotham;
+  font-family: font-gotham;
 }
 
 .sub-titulo {
   color: white;
   margin-bottom: 30px;
   font-size: 32px;
+  font-family: font-gotham;
 }
 
 .biografia {
   color: white;
   font-size: 16px;
-  font-family: "Montserrat", serif;
+  font-family:  sans-serif;
 }
 
 .integrante-dois-murilo {
