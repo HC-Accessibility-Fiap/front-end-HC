@@ -107,6 +107,10 @@ header nav ul li a p {
     cursor: pointer;
 }
 
+.text-decoration {
+    text-decoration: none;
+}
+
 .button_entrar_header:hover {
     background-color: #0086C5;
     color: white;
@@ -149,7 +153,7 @@ main {
 }
 
 .bem_vindo {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: font-gotham;
     font-size: 21px;
     color: #0086C5;
     font-weight: 600;
@@ -370,8 +374,8 @@ main {
 }
 
 .titulo_hospitais_proximos {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 32px;
+    font-family: font-gotham;
+    font-size: 50px;
     margin: 0 0 100px 0;
 }
 
@@ -515,9 +519,10 @@ main {
 }
 
 .text_servicos h2 {
-    font-size: 57px;
+    font-size: 50px;
     width: 100%;
     font-weight: 500;
+    font-family: font-gotham;
 }
 
 .text_servicos p {
@@ -619,8 +624,9 @@ main {
 }
 
 .text_sobre_inrea h2 {
-    font-size: 39px;
+    font-size: 50px;
     font-weight: 400;
+    font-family: font-gotham;
 }
 
 .text_sobre_inrea img {
