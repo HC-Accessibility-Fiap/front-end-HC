@@ -765,6 +765,7 @@ footer {
 
 .imagens {
   border-radius: 15px;
+  width: 300px;
 }
 
 .cards {
@@ -795,19 +796,20 @@ footer {
   color: white;
   margin-bottom: 15px;
   font-size: 64px;
-  font-family: Gotham;
+  font-family: font-gotham;
 }
 
 .sub-titulo {
   color: white;
   margin-bottom: 30px;
   font-size: 32px;
+  font-family: font-gotham;
 }
 
 .biografia {
   color: white;
   font-size: 16px;
-  font-family: "Montserrat", serif;
+  font-family:  sans-serif;
 }
 
 .integrante-dois-murilo {
