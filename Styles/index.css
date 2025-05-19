@@ -1,0 +1,921 @@
+/* IMPORTAÇÃO DAS FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kadwa:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+a {
+    cursor: pointer;
+}
+
+/* ESTILIZAÇÃO DO CABEÇALHO/HEADER */
+
+header {
+    height: 60px;
+    width: 100vw;
+    background-color: #0086C5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px 5px 50px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+}
+
+/* ESTILIZAÇÃO DA IMAGEM DA LOGO */
+
+.conteiner_logo_header {
+    cursor: pointer;
+    width: 150px;
+}
+
+.conteiner_logo_header img {
+    width: 100%;
+}
+
+/* ESTILIZAÇÃO DO MENU DE NAVEGAÇÃO */
+
+.nav_button_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+header nav ul li {
+    transition: 1s;
+    cursor: pointer;
+}
+
+header nav ul li a p:hover {
+    color: #313586;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header nav ul li a p {
+    color: white;
+    font-family: "Kadwa", serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+/* ESTILIZAÇÃO DO BOTÃO ENTRAR DO HEADER/CABEÇALHO */
+
+.button_entrar_header {
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    width: 120px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    color: #0086C5;
+    font-family: 'Inter', serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.13);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button_entrar_header:hover {
+    background-color: #0086C5;
+    color: white;
+    border: 1px solid white;
+}
+
+/* ESTILIZAÇÃO DO MEU HAMBURGUER */
+
+.menu_hamburguer {
+    display: none;
+}
+
+.nav_hamburguer_container {
+    display: none;
+}
+
+/* COMEÇO DA ESTILIZAÇÃO DO CORPO DA PAGINA / MAIN 
+ESTILIZAÇAO DO PRIMEIRO CONTAINER DA PAGINA QUE TEM O TITULO E A EVA DA PAGINA INICIAL*/
+
+/* ESTILIZAÇÃO DO CONTAINER DO TITULO DA PAGINA INICIAL*/
+
+main {
+    width: 100vw;
+}
+
+#titulo_eva {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 0 80px 0;
+    padding: 0 50px 20px 50px;
+}
+
+.container_titulo {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 30px;
+}
+
+.bem_vindo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    color: #0086C5;
+    font-weight: 600;
+}
+
+.container_titulo h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90px;
+    width: 600px;
+    line-height: 90px;
+    margin: 0 0 20px 0;
+    justify-content: left;
+}
+
+.paragrafo_titulo {
+    width: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    justify-content: left;
+    line-height: 23px;
+    margin: 0 0 20px 10px;
+}
+
+.pt2 {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+}
+
+.container_botoes_titulo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+
+.container_botoes_titulo button {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.226);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.container_botoes_titulo button:first-child:hover {
+    transform: scale(1.05);
+}
+
+.container_botoes_titulo button:last-child:hover {
+    background-color: #0086C5;
+    color: white;
+    transform: scale(1.05);
+}
+
+.container_botoes_titulo button:first-child {
+    background-color: #0086C5;
+    font-family: "Poppins", serif;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 46px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container_botoes_titulo button:last-child {
+    background-color: white;
+    font-family: "Poppins", serif;
+    color: #0086C5;
+    border: 1px solid #0086C5;
+    border-radius: 5px;
+    width: 130px;
+    height: 46px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* ESTILIZAÇÃO DO CONTAINER DA EVA */
+
+#container_eva {
+    width: 371px;
+    height: 583px;
+    background-color: rgb(233, 233, 233);
+    border: 1px solid #0086C5;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.356);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#header_eva {
+    width: 100%;
+    height: 70px;
+    background-color: #0086C5;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 5px 20px 5px 20px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.158);
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.conteudo_eva {
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#header_eva h2 {
+    font-family: "Poppins", serif;
+    color: white;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+#header_eva p {
+    font-family: "Poppins", serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -4px;
+}
+
+.balao_eva {
+    padding: 5px 5px 30px 5px;
+    margin: 5px;
+    justify-content: left;
+    background-color: #0086C5;
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 65%;
+}
+
+.balao_usuario {
+    padding: 5px 5px 30px 5px;
+    margin: 5px 5px 5px 33%;
+    justify-content: right;
+    background-color: white;
+    color: #0086C5;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #0086C5;
+    width: 65%;
+}
+
+/* ESTILIZAÇÃO DO FOOTER/CAMPO DE PROMPT DO CONTAINER EVA */
+
+.footer_eva {
+    width: 100%;
+    height: 65px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.campo_pesquisa {
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    width: 95%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px 5px 20px;
+}
+
+#input_eva {
+    height: 120%;
+    width: 95%;
+    border-radius: 5px;
+    border: transparent;
+    padding: 3px 3px 3px 20px;
+    background-color: transparent;
+    margin-left: -20px;
+    border: 1px solid #0086C5;
+}
+
+#input_eva::placeholder {
+    font-family: "Poppins", serif;
+    color: black;
+    border: none;
+}
+
+#botao_eva {
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 3px;
+    margin: 0 -10px 0 0;
+}
+
+#botao_eva img {
+    width: 25px;
+}
+
+/* ESTILIZAÇÃO DA SEGUNGA SEÇÃO/SEÇÃO DE HOSPITAIS PRÓXIMOS DA PAGINA INICIAL*/
+
+#hospitais_proximos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    padding: 0 50px;
+    align-items: center;
+
+}
+
+.titulo_hospitais_proximos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    margin: 0 0 100px 0;
+}
+
+.conteudo_hospitais_proximos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+/* ESTILIZAÇÃO DA LISTA DE HOSPITAIS */
+
+.lista_hospitais {
+    width: 50%;
+    padding: 2px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+}
+
+.lista_hospitais a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.card_hospitais {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.26);
+    gap: 20px;
+    width: 100%;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.card_hospitais:hover {
+    transform: scale(1.05);
+}
+
+.lista_hospitais img {
+    width: 240px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.384);
+    border-radius: 20px;
+}
+
+.text_card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.text_card h2 {
+    font-family: "Montserrat", serif;
+    font-size: 15px;
+    width: 80%;
+    text-decoration: none;
+    color: #000229;
+}
+
+.text_card p {
+    font-family: "Montserrat", serif;
+    width: 65%;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.line_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 7px 0 0 0;
+    gap: 20px;
+    width: 70%;
+}
+
+.nota {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50px;
+}
+
+.nota p {
+    font-family: "Montserrat", serif;
+    width: 65%;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.nota img {
+    width: 20px;
+}
+
+/* ESTILIZAÇÃO DA PARTE DO MAPA */
+
+.mapa_container {
+    width: 45%;
+    height: 100%;
+}
+
+#foto_mapa {
+    width: 95%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.24);
+}
+
+.mapa_container iframe {
+    width: 100%;
+}
+
+/* COMEÇO DA ESTILIZAÇÃO DE SERVIÇOS PARA VOCÊ DA PAGINA INICIAL*/
+
+#servicos_para_voce {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px 20px 50px;
+    margin: 0 auto;
+}
+
+/* ESTILIZAÃO DA PARTE DE TEXTO DA SEÇÃO SERVIÇOS PARA VOCE DA PAGINA INICIAL */
+
+.text_servicos {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+    font-family: "Montserrat";
+}
+
+.text_servicos h2 {
+    font-size: 57px;
+    width: 100%;
+    font-weight: 500;
+}
+
+.text_servicos p {
+    font-size: 16px;
+    width: 100%;
+    font-weight: 350;
+}
+
+/* ESTILIZAÇÃO DOS CARDS DE SERVIÇO */
+
+.cards_servicos {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card_servicos {
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.4s;
+}
+
+.card_servicos:hover {
+    transform: scale(1.02);
+}
+
+.line_top_card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: left;
+    gap: 10px;
+}
+
+.line_top_card img {
+    width: 40px;
+}
+
+.card_servicos h2 {
+    font-family: "Inter", serif;
+    font-size: 20px;
+    color: #0086C5;
+    font-weight: 500;
+}
+
+.card_servicos p {
+    font-family: "Inter", serif;
+    font-size: 15px;
+    width: 95%;
+    height: 120px;
+}
+
+.footer_card_servicos {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.footer_card_servicos button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.footer_card_servicos button img {
+    width: 30px;
+}
+
+/* ESTILIZAÇÃO DA SEÇÃO SOBRE INFORMAÇÕES SOBRE O IMREAM DA PAGINA INICIAL*/
+
+#sobre_inrea {
+    width: 100%;
+    padding: 20px 50px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.text_sobre_inrea {
+    width: 45%;
+    padding: 5px;
+    font-family: "Montserrat", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+}
+
+.text_sobre_inrea h2 {
+    font-size: 39px;
+    font-weight: 400;
+}
+
+.text_sobre_inrea img {
+    width: 150px;
+}
+
+.text_sobre_inrea p {
+    font-size: 18px;
+}
+
+.text_sobre_inrea a {
+    text-decoration: none;
+    color: #0086C5;
+}
+
+.text_sobre_inrea a p {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.imagem_inrea {
+    width: 49%;
+}
+
+.imagem_inrea img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+/* ESTILIZAÇÃO DO FOOTER DA PAGINA INICIAL*/
+
+footer {
+    background-color: #0086C5;
+    margin: 0 auto;
+    margin-top: 100px;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line1_footer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 30px 50px 20px 10px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.line1_footer img {
+    width: 400px;
+}
+
+.line2_footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 0 0 70px;
+}
+
+.lista_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 5px;
+    margin-bottom: -40px;
+}
+
+.lista_links a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", serif;
+    cursor: pointer;
+}
+
+.line3_footer {
+    width: 90%;
+    border-bottom: 1px solid white;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-bottom: 10px;
+}
+
+.line3_footer div:first-child {
+    align-items: flex-start;
+    width: 12%;
+}
+
+.line3_footer div:first-child p {
+    color: white;
+    font-family: "Inter", serif;
+    margin-bottom: 5px;
+}
+
+.line3_footer div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.line3_footer div:last-child a img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.line3_footer div:last-child a:last-child img {
+    width: 32px;
+    border-radius: 3px;
+}
+
+.line4_footer {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding: 0 0 20px 75px;
+}
+
+.line4_footer p {
+    color: white;
+    font-family: "Inter", serif;
+}
+
+/* COMEÇO DA ESTILIZAÇÃO DA PAGINA DE INTEGRANTES*/
+
+/* ESTILIZAÇÃO DO CONTEÚDO DA PAGINA DE INTEGRANTES */
+
+.integrantes {
+  background-color: #0086C5;
+  padding: 70px 96px;
+}
+
+.integrante-um-joao {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 110px;
+}
+
+.imagens {
+  border-radius: 15px;
+}
+
+.cards {
+  width: 354px;
+  height: 405px;
+  background-color: white;
+  border-radius: 13px;
+  padding: 20px ;
+}
+
+.icones-murilo {
+  align-items: center;
+}
+
+.conteudo-card {
+  justify-items: center;
+}
+
+.icones {
+  margin-top: 10px;
+}
+
+.icones a {
+  cursor: pointer;
+}
+
+.titulo {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 64px;
+  font-family: Gotham;
+}
+
+.sub-titulo {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.biografia {
+  color: white;
+  font-size: 16px;
+  font-family: "Montserrat", serif;
+}
+
+.integrante-dois-murilo {
+  display: flex;
+  gap: 2%;
+}
+
+/* ESTILIZAÇÃO DO FOOTER DA PAGINA DE INTEGRANTES*/
+
+#body_integrantes {
+  background-color: #0086c5;
+}
+
+#footer_integrantes {
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer_integrantes .line1_footer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 30px 50px 20px 10px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+#footer_integrantes .line1_footer img {
+    width: 400px;
+}
+
+#footer_integrantes .line2_footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 0 0 70px;
+}
+
+#footer_integrantes .lista_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 5px;
+    margin-bottom: -40px;
+}
+
+#footer_integrantes .lista_links a {
+    text-decoration: none;
+    color: #0086c5;
+    font-family: "Inter", serif;
+    cursor: pointer;
+}
+
+#footer_integrantes .line3_footer {
+    width: 90%;
+    border-bottom: 1px solid #0086c5;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-bottom: 10px;
+}
+
+#footer_integrantes .line3_footer div:first-child {
+    align-items: flex-start;
+    width: 12%;
+}
+
+#footer_integrantes .line3_footer div:first-child p {
+    color: #0086c5;
+    font-family: "Inter", serif;
+    margin-bottom: 5px;
+}
+
+#footer_integrantes .line3_footer div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#footer_integrantes .line3_footer div:last-child a img {
+    width: 40px;
+    cursor: pointer;
+}
+
+#footer_integrantes .line3_footer div:last-child a:last-child img {
+    width: 35px;
+    border-radius: 3px;
+}
+
+#footer_integrantes .line4_footer {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding: 0 0 20px 60px;
+}
+
+#footer_integrantes .line4_footer p {
+    color: #0086c5;
+    font-family: "Inter", serif;
+}
+
+/* ---------------------------------------------- */
