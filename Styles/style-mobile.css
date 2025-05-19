@@ -2,61 +2,47 @@
 /* Versão mobile */
 @media (max-width: 414px) {
  body {
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
   overflow-x: hidden; /* Impede scroll horizontal */
-  box-sizing: borer-box;
+  box-sizing: border-box;
   
 }
- 
+  div.form-txt {
+    margin-right: 200px;
+  }
+
   #form {
-    width: 75%;
+    width: 5%;
     margin: 0 15px; /* Margens laterais reduzidas */
     padding: 10px;
-  }
-  
-  .banner-txt {
-    width: 20%;
-    justify-items: start;
-  }
-
-  .tudao {
-    margin-top: 50px;
-    width: 20%;
-    margin: 0;
-  }
-
-  .tudao-dois {
-    justify-items: start;
   }
 }
 
 @media (max-width: 480px) {
   #form {
     width: 100%;
-    margin: 0 10px;
+    margin: 0;
   }
 }
 
 .form {
-  width: 10%;
-  margin: 0;
-  padding: 0%;
+  margin: 10px;
 }
 
 form {
-  display: flex;
-  width: 400px;
-  margin-left: 0;
+  width: 360px;
+  margin-left: 260px;
   padding: 0;
+}
+
+.banner-txt {
+  margin-left: 0;
 }
 
 .logos {
   width: 100px;
-  margin-right: 250px;
+  margin-left: 40px;
 }
 
 .logo-hc {
@@ -71,11 +57,25 @@ form {
   width: 100px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .img-pagina {
   display: none;
 }
 }
 
+@media (max-width: 395px) {
+  form {
+    width: 300px;
+    margin-left: 190px;
+  }
 
+  div.form-txt {
+    width: 300px;
+    margin-left: 10px;
+  }
 
+  .logos {
+    margin-left: 0;
+  }
+  
+}
