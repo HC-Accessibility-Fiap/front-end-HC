@@ -1,6 +1,6 @@
 /* ESTILIZAÇÃO RESPONSIVA DA PAGINA INICIAL */
 
-@media screen and (max-width: 500px)  {
+@media screen and (max-width: 1100px)  {
     header {
         padding: 5px 20px;
         display: grid;
@@ -203,5 +203,22 @@
         padding: 10px;
     }
 
-    
+    #sobre_inrea {
+        width: 100vw;
+        align-items: center;
+        padding: 10px;
+        margin: 0 auto;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .text_sobre_inrea {
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    #sobre_inrea img {
+        display: none;
+    }
 }
