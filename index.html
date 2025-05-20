@@ -23,52 +23,25 @@
 
 <body>
     <!-- CRIAÇÃO DO HEADER OU CABEÇALHO -->
-    <header id="header" onscroll="header()">
-        <div class="conteiner_logo_header">
-            <!-- imagem da logo -->
-            <a href="index.html"><img src="Images/logo.png" alt="logo do site, HC + Fiap"></a>
-        </div>
-
-        <!-- CRIAÇÃO DA AERA DE NAVEGAÇÃO -->
-        <div class="nav_button_container">
-            <nav class="nav_header">
-                <ul class="nav_lista">
-                    <li><a href="#">
-                            <p>Teleconsultas</p>
-                        </a></li>
-                    <li><a href="faq.html" target="blank">
-                            <p>FAQ</p>
-                        </a></li>
-                    <li><a href="#">
-                            <p>Contato</p>
-                        </a></li>
-                </ul>
-            </nav>
-        <!-- BOTÃO ENTRAR -->
-        <a href="login.html"><button class="button_entrar_header">Entrar</button></a>
-        </div>
-
-        <div class="menu_hamburguer">
-            <img src="Images/Group 42.png" alt="">
-        </div>
-
-        <div class="nav_responsive_container">
-            <nav class="nav_responsive">
-                <ul>
-                    <li><a href="#">
-                            <p>Teleconsultas</p>
-                    </a></li>
-                    <li><a href="#">
-                            <p>FAQ</p>
-                    </a></li>
-                    <li><a href="#">
-                            <p>Contato</p>
-                    </a></li>
-                </ul>
-            </nav>
-        </div>
+    
+    <nav>
+        <div class="logo"><img src="Images/logo.png" alt=""></div>
         
-    </header>
+        <ul class="nav-links">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Integrantes</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+
+        <button class="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <a class="text-decoration" href="login.html"><button class="button_entrar_header">Entrar</button></a>
+    </nav>
 
     <!-- CRIAÇÃO DO CORPO DA PAGINA -->
     <main>
