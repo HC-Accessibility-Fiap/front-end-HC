@@ -1,6 +1,6 @@
 /* ESTILIZAÇÃO RESPONSIVA DA PAGINA INICIAL */
 
-@media screen and (max-width: 500px)  {
+@media screen and (max-width: 1100px)  {
     header {
         padding: 5px 20px;
         display: grid;
