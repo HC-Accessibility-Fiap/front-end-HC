@@ -26,7 +26,7 @@
         width: 150px;
         left: 0;
         position: absolute;
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .nav_button_container {
@@ -35,7 +35,7 @@
 
     .menu_hamburguer {
         display: block;
-        margin-right: 10px;
+        margin-right: 20px;
         cursor: pointer;
         right: 0;
         position: absolute;
@@ -220,5 +220,128 @@
 
     #sobre_inrea img {
         display: none;
+    }
+
+    .cards {
+        width: 300px;
+        margin: 0 auto;
+        justify-content: center;
+        height: auto;
+    }
+
+    .conteudo_card {
+        width: 300px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .imagens {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .integrantes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 200px 0 0 0;
+    }
+
+    .integrante-um-joao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .integrante-dois-murilo {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .paragrafos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .titulo {
+        justify-content: center;
+        width: 90%;
+        align-items: center;
+        font-size: 53px;
+        margin: 0 auto;
+    }
+
+    footer, #footer_integrantes {
+        padding: 3px;
+    }
+
+    .line1_footer img, #footer_integrantes .line1_footer img {
+        width: 200px;
+    }
+
+    .line2_footer, #footer_integrantes .line2_footer {
+        padding: 20px;
+    }
+
+    .line3_footer, #footer_integrantes .line3_footer {
+        padding: 20px;
+    }
+
+    .line4_footer, #footer_integrantes .line4_footer {
+        padding:20px;
+    }
+    
+}
+
+@media screen and (max-width: 720px) {
+
+    .integrantes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .integrante-um-joao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .integrante-dois-murilo {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .paragrafos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .paragrafos h1 {
+        justify-content: center;
+        width: 100%;
+        align-items: center;
     }
 }
