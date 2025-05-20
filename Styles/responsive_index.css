@@ -3,17 +3,30 @@
 @media screen and (max-width: 500px)  {
     header {
         padding: 5px 20px;
-        height: 350px;
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
         align-items: center;
-        gap: 20px;
+        gap: 50px;
+        justify-content: space-between;
+        position: absolute;
+        top: 0;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    section {
+        padding: 0;
+        margin: 0;
     }
 
     .conteiner_logo_header {
-        width: 200px;
+        width: 150px;
         left: 0;
+        position: absolute;
+        margin-left: 10px;
     }
 
     .nav_button_container {
@@ -22,8 +35,10 @@
 
     .menu_hamburguer {
         display: block;
+        margin-right: 10px;
         cursor: pointer;
         right: 0;
+        position: absolute;
     }
 
     .nav_responsive_container {
@@ -32,11 +47,11 @@
         width: 100%;
         position: absolute;
         margin: 0 auto;
-        top: 0;
-        right: 0;
-        margin-top: 100px;
-        height: 300px;
+        margin-top: 380px;
         z-index: 10;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+        background-color: white;
+        display: none;
     }
 
     .nav_responsive ul {
@@ -45,7 +60,148 @@
         justify-content: space-around;
         align-items: center;
         padding: 10px;
-        font-size: 12px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .nav_responsive ul li {
+        display: flex;
+        border-bottom: 1px solid black;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .nav_responsive ul li a p {
+        font-size: 17px;
+        color: black;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #titulo_eva {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        padding: 10px;
+        margin-top: 150px;
+    }
+
+    .container_titulo {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .container_titulo h1 {
+        font-size: 290%;
+        line-height: 47px;
+        width: 100%;
+    }
+
+    .container_titulo p {
+        width: 95%;
+        font-size: 100%;
+    }
+
+    .container_botoes_titulo {
+        justify-content: left;
+    }
+
+    #container_eva {
+        width: 100vw;
+        margin-top: 100px;
+    }
+
+    #hospitais_proximos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
         margin: 0 auto;
     }
+
+    .card_hospitais {
+        width: 90vw;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .card_hospitais img:nth-child(1) {
+        display: none;
+    }
+
+    .conteudo_hospitais_poximos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .lista_hospitais {
+        align-items: center;
+        padding: 1px;
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    .text_card {
+        gap: 20px;
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    #servicos_para_voce {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 100px;
+    }
+
+    .text_servicos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .text_servicos h2, .text_servicos p {
+        width: 95%;
+        justify-content: baseline;
+    }
+
+    .cards_servicos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .card_servicos {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: baseline;
+        padding: 10px;
+    }
+
+    
 }
