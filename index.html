@@ -22,6 +22,22 @@
 </head>
 
 <body>
+
+    <script>
+        const menu = document.getElementById("menu_hamburguer")
+        const nav = document.getElementById("nav_responsive_container")
+
+        menu.addEventListener('click', function() {
+
+          if (nav.style.display === 'none') {
+             nav.style.display = 'flex';
+          } else {
+             nav.style.display = 'none';
+          }
+
+        })
+    </script>
+
     <!-- CRIAÇÃO DO HEADER OU CABEÇALHO -->
     <header id="header" onscroll="header()">
         <div class="conteiner_logo_header">
@@ -44,16 +60,16 @@
                         </a></li>
                 </ul>
             </nav>
-        <!-- BOTÃO ENTRAR -->
-        <button class="button_entrar_header">Entrar</button>
+            <!-- BOTÃO ENTRAR -->
+            <button class="button_entrar_header">Entrar</button>
         </div>
 
-        <div class="menu_hamburguer">
+        <div class="menu_hamburguer" id="menu_hamburguer" onclick="">
             <img src="Images/Group 42.png" alt="">
         </div>
 
-        <div class="nav_responsive_container">
-            <nav class="nav_responsive">
+        <div class="nav_responsive_container" id="nav_responsive_container">
+            <nav class="nav_responsive" id="nav_responsive">
                 <ul>
                     <li><a href="#">
                             <p>Teleconsultas</p>
