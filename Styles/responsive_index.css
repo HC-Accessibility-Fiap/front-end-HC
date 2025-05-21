@@ -1,6 +1,7 @@
 /* ESTILIZAÇÃO RESPONSIVA DA PAGINA INICIAL */
 
 @media (min-width: 1000px) {
+    
     .hamburger {
         display: none;
     }
@@ -29,10 +30,19 @@
 }
 
 @media (max-width: 414px) {
-    
+
+    nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0086C5;
+    color: white;
+    position: relative;
+    padding: 20px 40px;
+    }
 
     .hamburger {
-        margin-left: 135px;
+        margin-left: 125px;
     }
 }
 
@@ -435,5 +445,23 @@ form {
     
     .grid-servicos {
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 2rem;
+        position: static;
+        width: auto;
+        background: none;
+    }
+
+    .nav-links a {
+        padding: 0;
     }
 }
