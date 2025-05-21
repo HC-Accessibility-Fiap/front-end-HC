@@ -9,11 +9,6 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100vw;
-    overflow-x: hidden;
-}
-
 a {
     cursor: pointer;
 }
@@ -936,15 +931,6 @@ footer {
 /* PAGINA DE LOGIN */
 
 
-body {
- margin: 0;
- padding: 0;
- justify-content: space-between;
-  align-items: center; /* Centraliza verticalmente */
-  overflow-x: hidden; /* Impede scroll horizontal */
-  box-sizing: border-box;
-}
-
 /* SECTION FORM */
 
 #form {
@@ -1227,13 +1213,6 @@ nav {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: sans-serif;
-    line-height: 1.6;
-    color:  black;
-    background-color: #e9f4ff;
 }
 
 .troca-fontes {
@@ -1572,3 +1551,24 @@ body {
 
 /*------------------------------------------------------------------------*/
 
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+body {
+ margin: 0;
+ padding: 0;
+ justify-content: space-between;
+  align-items: center; /* Centraliza verticalmente */
+  overflow-x: hidden; /* Impede scroll horizontal */
+  box-sizing: border-box;
+}
+
+.body-faq {
+    font-family: sans-serif;
+    line-height: 1.6;
+    color:  black;
+    background-color: #ebebeb;
+}
