@@ -1,3 +1,25 @@
+// HAMBURGUER
+
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    // Toggle menu
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        hamburger.classList.toggle('active');
+    });
+
+    // Fechar menu ao clicar nos links
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+            hamburger.classList.remove('active');
+        });
+    });
+});
+
+//------------------------------------------------
 
 // EVENTO DE ANIMAÇÃO NO HEADER
 
@@ -110,20 +132,3 @@ function trocaSenha() {
     }
 }
 
-// ---------------------------------------
-
-// MENU HUBURGUER
-
-const menu = document.getElementById("menu_hamburguer")
-const nav = document.getElementById("nav_responsive_container")
-
-menu.addEventListener('click', function() {
-
-    // if (nav.style.display === 'none') {
-    //     nav.style.display = 'flex';
-    // } else {
-    //     nav.style.display = 'none';
-    // }
-
-    menu.style.backgroundColor = "red"
-})
