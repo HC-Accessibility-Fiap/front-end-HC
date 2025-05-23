@@ -57,7 +57,7 @@
         align-items: center;
         width: 100vw;
         padding: 10px;
-        margin-top: 150px;
+        margin-top: 50px;
     }
 
     .container_titulo {
@@ -67,6 +67,7 @@
         align-items: baseline;
         padding: 10px;
         margin: 0;
+        bottom: 10px;
     }
 
     .container_titulo h1 {
@@ -85,8 +86,8 @@
     }
 
     #container_eva {
-        width: 100vw;
-        margin-top: 100px;
+        width: 70%;
+        margin-top: 50px;
     }
 
     #hospitais_proximos {
@@ -113,14 +114,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100vw;
     }
 
     .lista_hospitais {
-        align-items: center;
-        padding: 1px;
+        justify-items: center;
         width: 100vw;
         margin: 0 auto;
+        margin-left: 9px;
     }
 
     iframe {
@@ -129,7 +129,7 @@
 
     .text_card {
         gap: 20px;
-        width: 100vw;
+        width: 70vw;
         margin: 0 auto;
     }
 
@@ -370,6 +370,10 @@ form {
   .logos {
     margin-left: 0;
   }
+
+  .logo-principal {
+    gap: 12px;
+  }
   
 }
 
@@ -465,7 +469,7 @@ form {
     }
 
     .logo-principal {
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .social_links {
@@ -498,8 +502,7 @@ form {
     }
 
     .logo-principal-branco {
-        margin-left: 20px;
-        margin-bottom: 50px;
+        margin: 0 0 30px 20px;
     }
 
     .social_links-branco {
