@@ -33,10 +33,9 @@ a {
 
 /* NAV BAR */
 
-* {
-    margin: 0;
-    button_entrar_header:  padding: 0;
-    box-sizing: border-box;
+
+.button_entrar_header { 
+     padding: 0;
 }
 
 nav {
