@@ -38,6 +38,11 @@ a {
 
 /* NAV BAR */
 
+
+.button_entrar_header { 
+     padding: 0;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
