@@ -636,7 +636,6 @@ main {
 .footer_card_servicos button {
     border: none;
     background-color: transparent;
-    cursor: pointer;
 }
 
 .footer_card_servicos button img {
