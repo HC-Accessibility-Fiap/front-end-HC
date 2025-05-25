@@ -39,6 +39,11 @@ a {
 
 /* NAV BAR */
 
+
+.button_entrar_header { 
+     padding: 0;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -633,7 +638,6 @@ main {
 .footer_card_servicos button {
     border: none;
     background-color: transparent;
-    cursor: pointer;
 }
 
 .footer_card_servicos button img {
