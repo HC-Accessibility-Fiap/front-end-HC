@@ -58,8 +58,8 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 Este projeto foi desenvolvido por:
 
-- **Murilo Macedo Silva**  
-- **João Victor Alcântara**
+- **Murilo Macedo Silva 566462 1TDSA**  
+- **João Victor Alcântara 562707 1TDSR**
 
 ---
 
